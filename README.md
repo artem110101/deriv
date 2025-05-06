@@ -4,7 +4,7 @@ Recently, I had an opportunity to finally catch up on one of the most fascinatin
 
 *JAX* has an incredibly friendly user-facing API, which packs significant power and is a state-of-the-art accelerator for array processing in Python.
 
-Interestingly, the JAX team has put an incredible amount of effort to make JAX contributor-friendly: they've create [Autodidax: JAX core from scratch](Autodidax: JAX core from scratch) guide.
+Interestingly, the JAX team has put an incredible amount of effort to make JAX contributor-friendly: they've create [Autodidax: JAX core from scratch](https://docs.jax.dev/en/latest/autodidax.html) guide.
 
 # Background
 
@@ -124,6 +124,6 @@ f4'(5.0) = 12.0
 While this is the simplest possible example of a forward pass, using scalar (single) numbers for clarity, real-world applications, especially in deep learning using libraries like JAX, typically involve operations on vectors, matrices, and higher-dimensional arrays (tensors). The underlying automatic differentiation principles demonstrated here extend to these structures, and efficient libraries like JAX leverage vectorized APIs to perform calculations across entire arrays. Furthermore, beyond this simple forward mode, JAX implements incredibly powerful techniques to support the reverse mode (often more efficient for typical deep learning gradient calculations), which we will explore in the next article.
 
 References:
- - [Deep Learning with JAX](https://www.manning.com/books/deep-learning-with-jax) (by Grigory Sapunov)
- - [Autodidax: JAX core from scratch](https://docs.jax.dev/en/latest/autodidax.html) (by JAX team)
- - [Deep Learning with Python, Third Edition](https://www.manning.com/books/deep-learning-with-python-third-edition)[https://www.manning.com/books/deep-learning-with-python-third-edition] (by François Chollet)
+ - [Deep Learning with JAX](https://www.manning.com/books/deep-learning-with-jax) (*by Grigory Sapunov*)
+ - [Autodidax: JAX core from scratch](https://docs.jax.dev/en/latest/autodidax.html) (*by JAX team*)
+ - [Deep Learning with Python, Third Edition](https://www.manning.com/books/deep-learning-with-python-third-edition) (*by François Chollet*)
